@@ -1,40 +1,36 @@
-# Змінні всіх основних типів
 age = 15                      # створюємо змінну "вік"
 height = 1.70                 # створюємо змінну "зріст"
-name = "Yevhen"               # створюємо змінну "ім’я"
+name = "Vlad"               # створюємо змінну "ім’я"
 is_student = True             # створюємо змінну "чи студент"
-hobbies = ["dota 2", "rust", "cs sourse"]   # створюємо список хобі
+hobbies = ["pubg", "rust", "cs sourse"]   # створюємо список хобі
 grades = (12, 11, 10)         # створюємо кортеж оцінок
-person = {"name": "Yevhen", "age": 15}  # створюємо словник з даними
+person = {"name": "Vlad", "age": 15}  # створюємо словник з даними
 unique_numbers = {1, 2, 3}    # створюємо множину унікальних чисел
 none_value = None             # створюємо змінну без значення (None)
 
-
-# Виводимо всі змінні
-print("age", age)             # виводимо вік
-print("height", height)       # виводимо зріст
-print("name", name)           # виводимо ім’я
-print("is_student", is_student)  # виводимо чи студент
-print("hobbies", hobbies)     # виводимо хобі
-print("grades", grades)       # виводимо оцінки
-print("person", person)       # виводимо словник
-print("unique_numbers", unique_numbers)   # виводимо множину
-print("none_value", none_value)           # виводимо пусте значення
-
+# Виводимо всі змінні з типом
+print("age:", age, "type:", type(age))
+print("height:", height, "type:", type(height))
+print("name:", name, "type:", type(name))
+print("is_student:", is_student, "type:", type(is_student))
+print("hobbies:", hobbies, "type:", type(hobbies))
+print("grades:", grades, "type:", type(grades))
+print("person:", person, "type:", type(person))
+print("unique_numbers:", unique_numbers, "type:", type(unique_numbers))
+print("none_value:", none_value, "type:", type(none_value))
 
 # Арифметичні оператори
-x, y = 10, 3                  # створюємо змінні x=10, y=3
-print(f"x + y = {x + y}")     # додаємо числа
-print(f"x - y = {x - y}")     # віднімаємо числа
-print(f"x * y = {x * y}")     # множимо числа
-print(f"x / y = {x / y}")     # ділимо (звичайне ділення)
-print(f"x // y = {x // y}")   # ділення без дробу (цілочисельне)
-print(f"x % y = {x % y}")     # залишок від ділення
-print(f"x ** y = {x ** y}")       # підносимо до степеня
-
+x, y = 10, 3
+print(f"x + y = {x + y}")
+print(f"x - y = {x - y}")
+print(f"x * y = {x * y}")
+print(f"x / y = {x / y}")
+print(f"x // y = {x // y}")
+print(f"x % y = {x % y}")
+print(f"x  y = {x  y}")
 
 # Логічні оператори
-a, b = True, False            # створюємо змінні a=True, b=False
-print(f"a and b : {a and b}") # перевіряємо чи обидва True
-print(f"a or b : {a or b}")   # перевіряємо чи хоча б один True
-print(f"not a : {not a}")     # заперечуємо значення a
+a, b = True, False
+print(f"a and b : {a and b}")
+print(f"a or b : {a or b}")
+print(f"not a : {not a}")
