@@ -27,7 +27,7 @@ print(f"x * y = {x * y}")
 print(f"x / y = {x / y}")
 print(f"x // y = {x // y}")
 print(f"x % y = {x % y}")
-print(f"x  y = {x  y}")
+print(f"x ** y = {x ** y}")
 
 # Логічні оператори
 a, b = True, False
